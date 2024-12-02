@@ -1,0 +1,26 @@
+nav.principal-nav ul{  
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+  li{        
+    a{
+      text-decoration: none;
+      color: $grey;
+      font-weight: 300;
+    }      
+    &:first-child a, &:hover{
+      color: $orange;
+      position: relative;
+      &::before{
+        content: "";
+        position: absolute;
+        width: 80%;
+        height: 2px;
+        background-color: $orange;
+        bottom: -5px;
+        left: 10%;
+      }
+    }
+  }
+}

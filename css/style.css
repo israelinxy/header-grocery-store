@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.signup-btn {
+  display: inline-block;
+  padding: 10px 28px;
+  background-color: #F38160;
+  border-radius: 12px;
+  color: #FAFAFA;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.hero {
+  display: flex;
+}
+.hero__info {
+  width: 45%;
+  padding-top: 55px;
+}
+.hero__info h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 65px;
+}
+.hero__info h1 span {
+  color: #F38160;
+}
+.hero__info .hero__subtitle {
+  margin-bottom: 30px;
+  width: 85%;
+  padding-top: 18px;
+  color: #949494;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+}
+.hero__info .hero__search {
+  width: 70%;
+  display: flex;
+}
+.hero__info .hero__search input {
+  flex: 1;
+  display: inline-block;
+  height: 40px;
+  background-color: #949494;
+  opacity: 0.25;
+  border: 0;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.hero__info .hero__search input::placeholder {
+  color: #949494;
+  font-weight: 100;
+}
+.hero__info .hero__search button {
+  display: inline-block;
+  padding: 8px 8px;
+  width: 40px;
+  background-color: #F38160;
+  border: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.hero__info .hero__search button img {
+  width: 20px;
+  height: 20px;
+}
+.hero__info .hero__info {
+  padding-top: 27px;
+  width: 61%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 30px;
+}
+.hero__info .hero__info li {
+  color: #949494;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  position: relative;
+  padding-left: 28px;
+}
+.hero__info .hero__info li::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../../img/check-list.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+}
+.hero__image {
+  width: 55%;
+}
+.hero__image img {
+  max-width: 70%;
+}
+
+.cart {
+  display: flex;
+  gap: 28px;
+}
+.cart img {
+  width: 90px;
+}
+.cart h3.product__name {
+  font-weight: 500;
+  font-size: 20px;
+}
+.cart p.product__description {
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #949494;
+}
+
+nav.principal-nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+}
+nav.principal-nav ul li a {
+  text-decoration: none;
+  color: #949494;
+  font-weight: 300;
+}
+nav.principal-nav ul li:first-child a, nav.principal-nav ul li:hover {
+  color: #F38160;
+  position: relative;
+}
+nav.principal-nav ul li:first-child a::before, nav.principal-nav ul li:hover::before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  background-color: #F38160;
+  bottom: -5px;
+  left: 10%;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .login ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+}
+header .login ul .carrito__image {
+  position: relative;
+}
+header .login ul .carrito__image-notification {
+  position: absolute;
+  top: -3px;
+}
+header .login ul .signin {
+  color: #F38160;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+html * {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

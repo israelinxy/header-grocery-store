@@ -1,0 +1,88 @@
+.hero{
+  display: flex;
+  &__info{
+    width: 45%;
+    padding-top: 55px;
+    h1{
+      font-family: $montserrat;
+      font-weight: 700;
+      font-size: 54px;
+      line-height: 65px;
+      span{
+        color: $orange;
+      }
+    }
+    .hero__subtitle{      
+      margin-bottom: 30px;
+      width: 85%;
+      padding-top: 18px;
+      color: $grey;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 28px;
+    }
+    .hero__search{      
+      width: 70%;
+      display: flex;
+      input{
+        flex: 1;
+        display: inline-block;
+        height: 40px;
+        background-color: $grey;        
+        opacity: 0.25;
+        border: 0;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        &::placeholder{
+          color: $grey;
+          font-weight: 100;
+        }
+      }
+      button{
+        display: inline-block;
+        padding: 8px 8px;
+        width: 40px;
+        background-color: $orange;        
+        border: 0;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        img{
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    .hero__info{
+      padding-top: 27px;
+      width: 61%;
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      gap: 30px;
+      li{
+        color: $grey;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        position: relative;
+        padding-left: 28px;
+        &::before{
+          content: "";
+          width: 20px;
+          height: 20px;
+          background-image: url("../../img/check-list.svg");
+          background-size: 20px;
+          background-repeat: no-repeat;
+          position: absolute;
+          left: 0;
+        }
+      }
+    }
+  }
+  &__image{
+    width: 55%;
+    img{
+      max-width: 70%;
+    }
+  }
+}

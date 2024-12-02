@@ -1,0 +1,24 @@
+header{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .login ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 35px;
+    .carrito__image{
+      position: relative;
+      &-notification{
+        position: absolute;
+        top: -3px;
+      }
+    }
+    .signin{
+      color: $orange;
+      font-weight: 300;
+    }
+  }
+}
