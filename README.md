@@ -5,7 +5,7 @@ Este proyecto presenta una Header de una tienda de comestibles preparado para un
 ---
 
 <div align="center">
-  <img src="grocery-store.png" alt="Header de una tienda de comestibles" width="55%"/>
+  <img src="grocery-store.png" alt="Header de una tienda de comestibles" width="80%"/>
 </div>
 
 
